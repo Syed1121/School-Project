@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vidhyardhi Vidhyaniketan</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-image: url('fee_plane.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      background-color: rgba(0,0,0,0.7);
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #fff;
+      font-weight: bold;
+    }
+    .navbar-nav .nav-link:hover {
+      color: blue !important; 
+    }
+    .navbar-brand:hover {
+      color: #f8f9fa;
+    }
+    .jumbotron {
+      background-color: rgba(0,0,0,0.4);
+      color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    }
+    .jumbotron h2 {
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .jumbotron p {
+      font-size: 1.5rem;
+      line-height: 1.6;
+    }
+    .container {
+      margin-top: 20px;
+    }
+
+    /* Card Container */
+    .card {
+      border: none;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Card Image */
+    .card img {
+      border-radius: 15px 15px 0 0;
+      object-fit: cover;
+      height: 200px;
+    }
+
+    .card-body {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity here */
+    }
+
+    /* Button */
+    .btn {
+      text-decoration: none;
+      color: black;
+      background-color: #007bff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Vidhyardhi Vidhyaniketan</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/school/about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/school/contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fee Details Table -->
+  <div class="container mt-5">
+    <h3 class="mb-4">Fee Details</h3>
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Grade</th>
+            <th>Tuition Fee</th>
+            <th>Transport Fee</th>
+            <th>Total Fee</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nursery</td>
+            <td>3000</td>
+            <td>-Free-</td>
+            <td>3000</td>
+          </tr>
+          <tr>
+            <td>Kindergarten</td>
+            <td>4000</td>
+            <td>-Free-</td>
+            <td>4000</td>
+          </tr>
+          <tr>
+            <td>1st Class</td>
+            <td>6000</td>
+            <td>1000</td>
+            <td>7000</td>
+          </tr>
+
+          <tr>
+            <td>2nd Class</td>
+            <td>8000</td>
+            <td>2000</td>
+            <td>1000</td>
+          </tr>
+
+          <tr>
+            <td>3rd Class</td>
+            <td>10000</td>
+            <td>2000</td>
+            <td>12000</td>
+          </tr>
+
+          <tr>
+            <td>4th Class</td>
+            <td>12000</td>
+            <td>2000</td>
+            <td>14000</td>
+          </tr>
+
+          <tr>
+            <td>5th Class</td>
+            <td>14000</td>
+            <td>2000</td>
+            <td>16000</td>
+          </tr>
+
+          <tr>
+            <td>6th Class</td>
+            <td>16000</td>
+            <td>2000</td>
+            <td>18000</td>
+          </tr>
+
+          <tr>
+            <td>7th Class</td>
+            <td>18000</td>
+            <td>3000</td>
+            <td>21000</td>
+          </tr>
+
+          <tr>
+            <td>8th Class</td>
+            <td>20000</td>
+            <td>3000</td>
+            <td>7300</td>
+          </tr>
+
+          <tr>
+            <td>9th Class</td>
+            <td>22000</td>
+            <td>3000</td>
+            <td>25000</td>
+          </tr>
+
+          <tr>
+            <td>10th Class</td>
+            <td>25000</td>
+            <td>3000</td>
+            <td>27000</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
